@@ -16,11 +16,29 @@
             <input type="date" id="data_nasimento" name="data_nasimento" required><br><br>
 
             <label for="cpf">Digite seu CPF:</label><br>
-            <input type="number" name="cpf" id="cpf"><br><br>
+            <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX"><br><br>
 
+            <label for="Tel">Telefone: </label><br>
+            <input type="tel" id="tel" name="tel" placeholder="(XX)XXXXX-XXXX" > <br><br>
+
+            <label for="genero">Qual seu gênero</label><br>
+            <select name="genero" id="genero">
+                <option value="gerente">Masculino</option>
+                <option value="analista">Femenino</option>
+                <option value="desenvolvedor">Outro</option>
+            </select><br><br><br><br><br><br>
+
+            <label for="endereço">Endereço:</label>
+            <input type="text" name="endereço" id="endereço" size="70">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados financeiros</legend>
 
 
         </fieldset>
+
     </form>
 </body>
 </html>
