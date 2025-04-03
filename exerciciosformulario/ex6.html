@@ -101,7 +101,27 @@
         <fieldset>
             <legend>Cadastro Imóvel</legend>
 
-            <label for=""></label>
+            <label for="tipo_imovel">Tipo de Imóvel:</label>
+            <select name="tipo_imovel" id="tipo_imovel" required>
+                <option value="">Selecione o tipo</option>
+                <option value="Casa">Casa</option>
+                <option value="Apartamento">Apartamento</option>
+                <option value="Terreno">Terreno</option>
+                <option value="Sala Comercial">Sala Comercial</option>
+            </select><br><b><br><br><br><br><br><br><br>
+
+            <label for="endereço_imovel">Endereço do Imóvel:</label><br>
+            <input type="text" id="endereço_imovel" name="endereço_imovel"><br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Dados Cônjuge</legend>
+            <label for="nome_conjuge">Nome do Cônjuge:</label><br>
+            <input type="text" id="nome_conjuge" name="nome_conjuge" required><br><br>
+
+            <label for="cpf_conjuge">CPF do Cônjuge:</label><br>
+            <input type="text" name="cpf_conjuge" id="cpf_conjuge" placeholder="XXX.XXX.XXX-XX" required><br><br>
+            
         </fieldset>
     </form>
 </body>
