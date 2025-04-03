@@ -16,10 +16,10 @@
             <input type="date" id="data_nasimento" name="data_nasimento" required><br><br>
 
             <label for="cpf">Digite seu CPF:</label><br>
-            <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX"><br><br>
+            <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" required><br><br>
 
             <label for="Tel">Telefone: </label><br>
-            <input type="tel" id="tel" name="tel" placeholder="(XX)XXXXX-XXXX" > <br><br>
+            <input type="tel" id="tel" name="tel" placeholder="(XX)XXXXX-XXXX" required> <br><br>
 
             <label for="genero">Qual seu gênero</label><br>
             <select name="genero" id="genero">
@@ -35,8 +35,47 @@
 
         <fieldset>
             <legend>Dados financeiros</legend>
+            <label for="renda">Renda Mensal:</label><br>
+            <input type="text" id="renda" name="renda" placeholder="R$"><br><br>
 
+            <label for="numero-cartao">Número do cartão:</label><br>
+            <input type="text" name="numero-cartao" id="numero-cartao" placeholder="XXXX-XXXX-XXXX-XXXX" required><br><br>
 
+            <label for="validade do cartao">Validade do cartão:</label><br>
+            <input type="text" id="validade-do-cartao" name="valdade-do-cartao" placeholder="MM/AA" required><br><br>
+
+            <label for="cartao-nome">Nome no cartão:</label><br>
+            <input type="text" name="cartao-nome" id="cartao-nome" required><br><br>
+
+            <label> Tipo de conta Bancária </label><br>
+            <label for="corrente">Corrente</label>
+            <input type="radio" id="corrente" name="corrente"><br>
+            
+
+            <label for="poupanca">Poupança</label>
+            <input type="radio" id="poupanca" name="poupanca">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Comerciais</legend>
+
+            <label for="nome-empresa">Nome da Empresa:</label><br>
+            <input type="text" id="nome-empresa" name="nome-empresa"><br><br>
+
+            <label for="cnpj">CNPJ:</label><br>
+            <input type="text" name="cnpj" id="cnpj"><br><br>
+
+            <label for="atividade">Rumo de Atividade</label>
+
+            <select name="atividade" id="atividade">
+            <option value="comercio">Comércio Varejista</option>
+            <option value="prestacao">Prestação de Serviço</option>
+            <option value="industria">Indústria</option>
+        </select><br><br><br><br><br><br><br>
+
+            <label for="faturamento-empresa">Faturamento médio mensal:</label>
+            <input type="text" id="faturamento-empresa">
         </fieldset>
 
     </form>
