@@ -3,9 +3,24 @@ h1{
 }
 
 #botao_red{
-    color:red;
+    color:blue;
 }
 
 #botao_azul{
-    color: blue;
+    color: red;
+}
+
+.classe1{
+    background-color: white;
+    color: purple;
+}
+
+.classe2{
+    background-color: black;
+    color: white;
+}
+
+.classe3{
+    background-color: red;
+    color: white;
 }
