@@ -1,0 +1,38 @@
+h1.ola {
+    color: #fefbd9;
+    background: linear-gradient(to bottom, #23b3cf, #0000);
+}
+
+h2.mundo {
+    background: url("fundo.jpg");
+}
+
+body {
+    background: linear-gradient(to bottom, #23b3cf, #0000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+
+p.eita{
+    box-shadow: 2px 2px 3px; 
+    display: inline;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px;
+    box-sizing:content-box;
+} 
+
+#img1{
+    box-sizing:content-box;
+    width: 600px;
+    height: 600px;
+}  
+
+p.desplay{
+    display: block;
+
+}

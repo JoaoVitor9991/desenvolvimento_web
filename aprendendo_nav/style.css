@@ -38,3 +38,11 @@ p.center{
     font-size: 16px;
     line-height: 24px;    
 }
+
+h1.olazinha{
+    color: deeppink;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
