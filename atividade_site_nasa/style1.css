@@ -32,7 +32,11 @@ nav a{
 
 .xd1{
     color: white;
-    margin: 0px;
-    width: 50%;
+    margin-top: 300px;
     
+}
+
+.img3 {
+    height: 500px;
+    margin-bottom: -3px;
 }
