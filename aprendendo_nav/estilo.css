@@ -1,5 +1,5 @@
 img{
     display: block;
     left: 10px;
-    position: absolute;
+    position: relative;
 }
