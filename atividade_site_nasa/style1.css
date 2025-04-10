@@ -46,6 +46,8 @@ nav a{
     width: 600px;
     height: auto;
     margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .image-container1{
@@ -59,11 +61,13 @@ nav a{
     width: 350px;
     margin-left: 40px;
     z-index: -1;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .h1 {
     position: absolute;
-    top: 20px;
+    top: 110px;
     left: 50px;
     color: white;
     background-color: rgb(0, 0,0,0.5);
@@ -73,11 +77,31 @@ nav a{
 
 .texto_img4 {
     position: absolute;
-    top: 20px;
+    top: 60px;
     left: 50px;
     color: white;
     background-color: rgb(0, 0,0,0.5);
     padding: 10px;
     margin: 0;
 
+}
+
+.image-container3 {
+    position: relative;
+    display: inline-block;
+}
+
+.img5{
+    display: block;
+    height: 1070px;
+    z-index: -1;
+}
+
+.texto_img5 {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    background-color:rgb(0, 0,0,0.5) ;
+    padding: 10px;
+    margin: 0;
 }
