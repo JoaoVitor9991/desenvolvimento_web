@@ -38,6 +38,14 @@ nav a{
 
 .img3 {
     height: 400px;
-    width: 400px;
+    width: 500px;
     margin-left: 150px;
+    z-index: -1;
+}
+
+.img4{
+    height: 400px;
+    width: 350px;
+    margin-left: 40px;
+    z-index: -1;
 }
