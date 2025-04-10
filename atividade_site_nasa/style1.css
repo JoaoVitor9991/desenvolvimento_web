@@ -19,3 +19,15 @@ nav a{
     z-index: -1;
 }
 
+.img2 {
+    height: 400px;
+    width: 1910px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.h1
