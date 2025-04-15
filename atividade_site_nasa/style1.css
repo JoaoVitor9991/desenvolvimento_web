@@ -32,8 +32,13 @@ nav a{
 
 .xd1{
     color: white;
+    margin-top: 250px;
+    z-index: -1;
+}
+
+.xd2{
+    color: black;
     margin-top: 300px;
-    
 }
 
 .image-container {
