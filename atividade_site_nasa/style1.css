@@ -136,12 +136,13 @@ nav a{
 .img5{
     display: block;
     height: 1070px;
+    margin-bottom: 300px;
     z-index: -1;
 }
 
 .texto_img5 {
     position: absolute;
-    bottom: 100px;
+    bottom: 400px;
     color: white;
     background-color:rgb(0, 0,0,0.5) ;
     padding: 10px;
@@ -200,7 +201,21 @@ body {
     vertical-align: middle;
 }
 
+.footer-logo{
+    position: absolute;
+    margin-left: 900px;
+}
 
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+    height: 60px;
+    
+}
 
 
 
