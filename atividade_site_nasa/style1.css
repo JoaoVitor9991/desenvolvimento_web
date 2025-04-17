@@ -251,7 +251,7 @@ body {
     height: 250px;
     position: absolute;
     margin-top: 250px;
-    margin-left: 690px;
+    margin-left: 300px;
 }
 
 .nav-right {
@@ -269,4 +269,9 @@ body {
     color: #fff;
     height: 60px;
     margin-bottom: 20px;
+}
+
+.titulo1_Clima_e_Terra{
+    margin-top: 100px;
+    margin-left: 600px;
 }
