@@ -246,3 +246,10 @@ body {
 
 
 
+.img1_aquecimento{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 690px;
+}
