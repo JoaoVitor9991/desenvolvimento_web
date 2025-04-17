@@ -247,9 +247,26 @@ body {
 
 
 .img1_aquecimento{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     position: absolute;
     margin-top: 250px;
     margin-left: 690px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar_clima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+    height: 60px;
+    margin-bottom: 20px;
 }
