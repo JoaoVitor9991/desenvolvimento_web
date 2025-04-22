@@ -24,7 +24,7 @@
     border: 3px solid black;
     border-radius: 10px;
     margin-top: -5px;
-    box-shadow: black;
+    box-shadow: 3px 15px 10px black;
 }
 
 .p2{
@@ -35,7 +35,7 @@
     border: 3px solid black;
     border-radius: 10px;
     margin-top: -5px;
-
+    box-shadow: 3px 15px 10px black;
 }
 
 .p3{
@@ -46,7 +46,7 @@
     border: 3px solid black;
     border-radius: 10px;
     margin-top: -5px;
-    box-shadow: 10px;
+    box-shadow: 3px 15px 10px black;
 }
 
 .p4{
@@ -57,7 +57,7 @@
     border: 3px solid black;
     border-radius: 10px;
     margin-top: -5px;
-    box-shadow: 10px;
+    box-shadow: 3px 15px 10px black;
 }
 
 .p5{
@@ -68,5 +68,5 @@
     border: 3px solid black;
     border-radius: 10px;
     margin-top: -5px;
-    box-shadow: 10px;
+    box-shadow: 3px 15px 10px black;
 }
