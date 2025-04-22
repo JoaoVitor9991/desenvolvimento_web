@@ -1,0 +1,8 @@
+.teste {
+    background-color: green;
+}
+
+.menu:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
