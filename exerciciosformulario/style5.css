@@ -9,3 +9,64 @@
     flex-direction: column;
     align-items: center;
 }
+
+.lisa1, .lisa2, .lisa3, .lisa4, .lisa5 {
+    width: 230px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.p1{
+    color: white;
+    background-color: blue;
+    width: 230px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: -5px;
+    box-shadow: black;
+}
+
+.p2{
+    color: red;
+    background-color: azure;
+    width: 230px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: -5px;
+
+}
+
+.p3{
+    color: green;
+    background-color: cadetblue;
+    width: 230px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: -5px;
+    box-shadow: 10px;
+}
+
+.p4{
+    color: cadetblue;
+    background-color: chocolate;
+    width: 230px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: -5px;
+    box-shadow: 10px;
+}
+
+.p5{
+    color: aquamarine;
+    background-color: brown;
+    width: 230px;
+    height: 165px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: -5px;
+    box-shadow: 10px;
+}
