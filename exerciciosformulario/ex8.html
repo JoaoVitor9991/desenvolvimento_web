@@ -39,6 +39,26 @@
             transition: 10s;
             transform: rotate(180deg);
         }
+        .img{
+            width: 33%;
+            height: auto;
+        }
+        .blur{
+            filter: blur(4px);
+        }
+        .contrast{
+            filter: contrast(180%);
+        }
+
+        .grayscale{
+            filter: grayscale(100%);
+        }
+
+        .huerotate{
+            filter: hue-rotate(180deg);
+        }
+
+    
     </style>
 </head>
 <body>
@@ -55,5 +75,9 @@
     <p class="capitalize">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum vero cupiditate autem corrupti quia, fugiat laudantium doloribus provident beatae dicta voluptatum eligendi, dolores molestias laborum rem? Blanditiis voluptate sequi repellat!</p>
 
     <img src="tigre.jpg" alt="">
+    <img class="blur" src="tigre.jpg" alt="">
+    <img class="contrast" src="tigre.jpg" alt="">
+    <img class="grasyscale" src="tigre.jpg" alt="">
+    <img class="huerotate" src="tigre.jpg" alt="">
 </body>
 </html>
