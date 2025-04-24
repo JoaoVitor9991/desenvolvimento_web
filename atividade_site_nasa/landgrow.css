@@ -1,16 +1,21 @@
-.logotipo_landgrow_home{
-    width: 300px;
-    height: 300px;
-    position:fixed;
-    top: 0;
-    left: 0;
+.logotipo_landgrow_usuario {
+    width: 350px; 
+    height: 300px; 
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    z-index: 1000; 
 }
-
 body{
     background-color: #041e2d;
+    margin: 0;
 }
 
 .icn_sair_img{
     width: 20px;
     height: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
 }
