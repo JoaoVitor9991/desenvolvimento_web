@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.grid-item{
+    background-color: aliceblue;
+    border: 1px;
+    border-color: red;
+    border-style: solid;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
