@@ -12,7 +12,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 90%;
+    font-size: 1rem;
+    font-size: 12px;
 }
+
 
 header {
     background-color: #333;
@@ -37,4 +41,12 @@ nav ul li a:hover {
 
 .titulo1{
     margin-top: 30%;
+}
+
+@media (min-width: 768px){
+.container{
+        width: 80%;
+        font-size: 1.2rem;
+        font-size: 12px;
+    }
 }
