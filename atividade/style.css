@@ -1,0 +1,54 @@
+.activity-card{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px ;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.activity-card h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.activity-card p {
+    color: #6c755d;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.activity-item:last-child{
+    border-bottom: none;
+}
+
+.activity-item .circle{
+    width: 40px;
+    height: 40px;
+    background-color: #dee2e6;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.activity-item .text-primary{
+    font-weight: 500;
+}
+
+.activity-item .item{
+    margin-left: auto;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+  .bootstrap-label {
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     background-color: #007bff;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-size: 0.8rem;
+}
